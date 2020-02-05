@@ -1,0 +1,19 @@
+2020-02-03 16:42:22.0903|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\topu_\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-03 16:42:24.3495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/api/cities/10/pointsofinterest  
+2020-02-03 16:42:24.3495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2020-02-03 16:42:24.3760|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2020-02-03 16:42:24.5850|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 210.4937ms 200 
+2020-02-03 16:42:25.3531|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1010.2363ms 404 text/plain
+2020-02-03 16:42:25.4761|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2020-02-03 16:42:25.5986|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2020-02-03 16:42:25.8063|FATAL|CityInfo.API.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 10.
+2020-02-03 16:42:25.8130|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 202.2263ms.
+2020-02-03 16:42:25.8408|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2020-02-03 16:42:25.8573|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 366.6887ms
+2020-02-03 16:42:25.8753|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1533.1219ms 500 text/plain; charset=utf-8
+2020-02-03 16:50:26.6940|INFO|CityInfo.API.Program|Initializing application...
+2020-02-03 16:50:33.1084|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\topu_\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-02-03 16:50:35.0730|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2020-02-03 16:50:35.0730|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2020-02-03 16:50:35.5474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 369.366ms 200 
+2020-02-03 16:50:36.1263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1047.6826ms 404 text/plain
